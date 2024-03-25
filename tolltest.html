@@ -2,8 +2,14 @@
 <html>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
 
+  
+<h1>Tolletaten status</h1>
+<p>
+  MO - movement-road-api-v2 - STATUS: 
+</p>
+<script>
+  fetch('https://api.toll.no/api/movement/road/v2/swagger-ui/index.html') .then(response => response.status).catch(error => console.error(error)); 
+</script>
 </body>
 </html>
